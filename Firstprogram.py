@@ -1,2 +1,6 @@
-age = int(input("enter your age "))#casting from str to string
-print(type(age))# to know data type
+
+try:
+    age = int(input("enter your age "))#Exception
+    print(age)
+except:
+    print("please give number")
