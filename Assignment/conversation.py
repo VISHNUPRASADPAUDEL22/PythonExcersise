@@ -1,0 +1,11 @@
+# Create a simple conversation with your program with a minimum of 5 questions and responses.
+name = input("enter your name: ")
+print( f"hello {name}")
+age = input("enter your age: ")
+print(f"Your age is:{age}")
+clas = input("enter your class: ")
+print(f" my class is six:{clas}")
+subject= input("enter your subject ")
+print(f" My Subject is computer: {subject}")
+roll= input("enter your roll no: ")
+print(f" My roll no is:{roll}")
