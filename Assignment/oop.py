@@ -32,7 +32,8 @@ class English_teacher(Teacher):
 
 #creating object math teacher
 math_teacher1= Math_Teacher("sunil",25,"very strict")#creating object of the class
-math_teacher1.give_assignment()          
+math_teacher1.give_assignment()  # method overriding
+print("complete the formula")        
 #accessing private attributes pf class is not allowed 
 #print(Teacher1.name) 
 #print(Teacher1.age) # not allowed
@@ -44,5 +45,7 @@ math_teacher1.give_assignment()
 
 english_teacher1= English_teacher("English_Teacher",28," very Polit")
 english_teacher1.give_assignment()
+
+print("Complete the Project")  
 print(english_teacher1.get_name())    
 english_teacher1.give_assignment() 
