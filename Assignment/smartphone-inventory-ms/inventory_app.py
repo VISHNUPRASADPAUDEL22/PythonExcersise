@@ -15,7 +15,7 @@ def add_phone():
     phone = Phone (model,brand,price,storage,quantity)
 
     phone_inventory.append(phone)
-    print(phone_inventory)
+    # print(phone_inventory)
 
 #TODO view details of phone
 #TODO how do i show information of the phone that the user wants.
@@ -31,11 +31,21 @@ def view_phone_details():
 #TODO how to let user exit the program. 
 print("Enter 1 to add phone:")
 print("Enter 2 to view details:")
+print("Enter 3 to update phone details:")
+print("Enter 4 to remove phone:")
+print("Enter 6 to Exit:")
 option=int(input("choose and option"))
 if(option==1):
     add_phone()
 elif(option==2):
     view_phone_details()
+elif(option==5):
+    break
+else: 
+    print("enetr the options from (1-to 5)\n")
+    
+
+
 
 
 
