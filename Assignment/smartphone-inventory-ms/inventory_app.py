@@ -48,7 +48,18 @@ def update_phonedetails():
                        
 #TODO delete a phone
 def delete_phone():
-    pass
+    model_number_to_delete=input("Enetr the phone model to delete")
+    for phone in phone_inventory:
+        if model_number_to_delete == phone.get_model():
+            phone_inventory.remove(phone)
+            print(f"{model_number_to_delete} has been removerd from the record")
+            return
+        else:
+            print(f"{model_number_to_delete} not found the record")
+        
+        
+       
+    
 #TODO how to allow user to do the operations?
 #TODO how to let the user program as much as they want
 #TODO how to let user exit the program. 
