@@ -1,4 +1,4 @@
-#TODO creat a class name phone
+#TODO create a class name phone
 #withprivate attributes brand, model, modelnumber,price,storage
 #create setters and getters for the private attributes
 class Phone:
@@ -27,16 +27,16 @@ class Phone:
     def get_price(self)->int:
         return self.__price  # Set for mobile Price
     
-    def set_storage(self,Storage:str):# Set for mobile storage
-        self.__storage= Storage
+    def set_storage(self, storage:str):# Set for mobile storage
+        self.__storage= storage
         
-    def Set_storage(self)->str:
+    def get_storage(self)->str:
         return self.__storage  # Set for mobile storage
     
-    def set__quantity (self,quantity:int):# Set for mobile storage
+    def set__quantity (self, quantity:int):# Set for mobile storage
         self.__quantity= quantity
         
-    def Set_quantity(self)->int:
+    def get_quantity(self)->int:
         return self.__quantity  # Set for mobile storage
     
         
